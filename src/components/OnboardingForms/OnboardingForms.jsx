@@ -12,8 +12,10 @@ const OnboardingForms = () => {
 
   return (
     <>
+      <BusinessDashboard />
       <FinancialSnapshotForm />
       <ClientDetailsForm />
+      <KycRegistration />
       <div className='mt-auto text-center'>
         <Button variant="primary" type="submit" onClick={handleSubmit}>
           Submit Application

@@ -12,6 +12,8 @@ const OnboardingForms = () => {
 
   return (
     <>
+      <BusinessDashboard />
+      <KycRegistration />
       <FinancialSnapshotForm />
       <ClientDetailsForm />
       <div className='mt-auto text-center'>
